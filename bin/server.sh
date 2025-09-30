@@ -2,7 +2,7 @@
 BIN_PATH=`pwd`
 
 SERVER_HOME=`dirname $BIN_PATH`
-JAVA_HOME="$SERVER_HOME/runtime/jre"
+#JAVA_HOME="$SERVER_HOME/runtime/jre"
 # echo "Java home:$JAVA_HOME"
 # Check Java Home
 if [ ! -r "$JAVA_HOME/bin/java" ]; then
